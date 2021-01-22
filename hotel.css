@@ -1,0 +1,115 @@
+body {
+  background-image: url("http://outgotrip.com/wp-content/uploads/2017/07/Maldives.jpg");
+  background-size: 1540px;
+}
+#topBar {
+  height: 30px;
+  
+}
+#linkOne {
+  position: absolute;
+  right: 200px;
+  top: 10px;
+}
+#linkTwo {
+  position: absolute;
+  right: 150px;
+  top: 10px;
+}
+#linkThree {
+  position: absolute;
+  right: 60px;
+  top: 10px;
+}
+#price {
+  position :absolute;
+  right: 700px;
+  font-weight: bold;
+  top: 0px;
+  text-shadow: 2px 2px 4px #000101;
+}
+#title {
+  color: #ff6699;
+  position: absolute;
+  right: 500px;
+  font-size: 80px;
+  font-family: "Verdana";
+  text-shadow: 4px 4px 6px #ff0000;
+}
+#one {
+  font-size: 50px;
+  color: #ff4d88;
+  font-family: "Verdana";
+  text-shadow: 4px 4px 6px #66f0ff;
+}
+#hotelOne {
+  position: absolute;
+  bottom: 300px;
+}
+#removeHotelOne {
+  position: absolute;
+  bottom: 250px;
+}
+#listOne {
+  position: absolute;
+  top: 500px;
+  width: 200px;
+  border: 1px solid blue;
+  word-wrap:break-word;
+}
+#two {
+  font-size: 50px;
+  color: #ff4d88;
+  font-family: "Verdana";
+  text-shadow: 4px 4px 6px #008a99;
+}
+#hotelTwo {
+  position: absolute;
+  bottom: 300px;
+  right: 658px;
+}
+#removeHotelTwo {
+  position: absolute;
+  bottom: 250px;
+  right: 618px;
+}
+#listTwo {
+  position: absolute;
+  top: 500px;
+  right: 680px;
+  width: 200px;
+  border: 1px solid blue;
+  word-wrap: break-word;
+}
+#three {
+  font-size: 50px;
+  color: #ff4d88;
+  font-family: "Verdana";
+  text-shadow: 4px 4px 6px #005c66;
+}
+#hotelThree {
+  position: absolute;
+  bottom: 300px;
+  right: 115px;
+}
+#removeHotelThree {
+  position: absolute;
+  bottom: 250px;
+  right: 100px;
+}
+#listThree {
+  position: absolute;
+  top: 500px;
+  right: 140px;
+  width: 200px;
+  border: 1px solid blue;
+  word-wrap: break-word;
+}
+#payBox {
+  background-color: #ff6699;
+  width: 280px;
+}
+li {
+  color: #cc0044;
+  text-shadow: 4px 4px 6px black;
+}
