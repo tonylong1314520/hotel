@@ -13,37 +13,9 @@
     <input type="text" id="roomOne" onkeydown="if(event.keyCode == 13)document.getElementById('buttonOne').click()" maxlength="20">
     <input type="button" value="Add Guest" id="buttonOne" onclick="addOne()">
     </div>
-    <div id="removeHotelOne">
-    <input type="number" id="removeOne" onkeydown="if(event.keyCode == 13)document.getElementById('removeButtonOne').click()">
-    <input type="button" value="Remove a Guest" onclick="removeOne()" id="removeButtonOne">
-    </div>
     <ol id="listOne">
     </ol>
     
-    <div id="hotelTwo">
-      <p id="two">Room Two</p>
-    <input type="text" id="roomTwo" onkeydown="if(event.keyCode == 13)document.getElementById('buttonTwo').click()" maxlength="20">
-    <input type="button" value="Add Guest" onclick="addTwo()" id="buttonTwo">
-    </div>
-    <div id="removeHotelTwo">
-    <input type="number" id="removeTwo" onkeydown="if(event.keyCode == 13)document.getElementById('removeButtonTwo').click()">
-    <input type="button" id="removeButtonTwo" value="Remove a Guest" onclick="removeTwo()">
-    </div>
-    <ol id="listTwo">
-    </ol>
-    
-    <div id="hotelThree">
-      <p id="Three">Room Three</p>
-    <input type="text" id="roomThree" onkeydown="if(event.keyCode == 13)document.getElementById('buttonThree').click()" maxlength="20">
-    <input type="button" onclick="addThree()" id="buttonThree" value="Add Guest">
-    </div>
-    <div id="removeHotelThree">
-    <input type="number" id="removeThree" onkeydown="if(event.keyCode == 13)document.getElementById('removeButtonThree').click()">
-    <input type="button" value="Remove a Guest" onclick="removeThree()" id="removeButtonThree">
-    </div>
-    
-    <ol id="listThree">
-    </ol>
     <p id="grandTotal">Grand Total</p>
     </div>
     
