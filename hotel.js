@@ -100,10 +100,10 @@ function addTotal() {
 function creditCard() {
   var youtube = document.getElementById('credit').value;
   document.getElementById('credit').value = "";
-  if(youtube <= 99) {
+  if(youtube.length === 16) {
   document.getElementById('outcome').innerHTML = "The total above" + " is processed to the account # " + (youtube);
   }
   else {
-    window.alert('INVALID CREDIT CARD NUMBER');
+    window.alert('INVALID CREDIT CARD NUMBER (16 digit credit card number)');
   }
 }
